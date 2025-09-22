@@ -2,3 +2,4 @@
 Tutorial code for 25T3!
 
 * [Week 1](week01): pointers, command-line arguments, recursion
+* [Week 2](week02): intro to MIPS
