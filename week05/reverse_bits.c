@@ -2,20 +2,20 @@
 #include <assert.h>
 #include <stdint.h>
 
-
+typedef uint32_t Word;
 
 // Reverse the order of the bits in variable w
-uint32_t reverseBits(uint32_t w) {
+Word reverseBits(Word w) {
     // Create a return variable
-    uint32_t retval = 0;
+    Word retval = 0;
 
     for (int i = 0; i < 32; i++) {
         // Read through OG value (w) from right to left
         // Mask below has the bit set to position i
-        uint32_t mask = 0b1 << i;
+        Word mask = 0b1 << i;
 
         // is_set will be a non-zero value if the bit at position i is set
-        uint32_t is_set = w & mask;
+        Word is_set = w & mask;
 
         // Now if the bit is set, we will set the bit in retval
         // but from left to right as loop continues
@@ -30,7 +30,7 @@ uint32_t reverseBits(uint32_t w) {
 
 // testing
 int main(void) {
-    uint32_t w1 = 0x01234567;
+    Word w1 = 0x01234567;
     // 0000 => 0000 = 0
     // 0001 => 1000 = 8
     // 0010 => 0100 = 4
