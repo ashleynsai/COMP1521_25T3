@@ -6,3 +6,4 @@ Tutorial code for 25T3!
 * [Week 3](week03): arrays and memory in MIPS
 * [Week 5](week05): numbers in C
 * [Week 7](week07): two's complement and IEEE 754
+* [Week 8](week08): files
