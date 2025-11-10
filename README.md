@@ -7,3 +7,4 @@ Tutorial code for 25T3!
 * [Week 5](week05): numbers in C
 * [Week 7](week07): two's complement and IEEE 754
 * [Week 8](week08): files
+* [Week 9](week09): UTF-8, environment variables, fseek
